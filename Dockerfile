@@ -1,0 +1,4 @@
+FROM cyberbotics/webots.cloud:R2022b-ubuntu28.04
+ARG PROJECT_PATH
+RUN mkdir -p SPROJECT PATH
+COPY SPROJECT PATH
